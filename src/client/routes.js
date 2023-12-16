@@ -1,11 +1,21 @@
-import HomePage from "pages/home";
-import NotFound from "pages/not-found";
+import HomePage from "@pages/home";
+import Resume from "@pages/resume";
+import Contact from "@pages/contact";
+import NotFound from "@pages/not-found";
 
 const routes = [
   {
     path: "/",
     element: HomePage,
     exact: true,
+  },
+  {
+    path: "/resume",
+    element: Resume,
+  },
+  {
+    path: "/contact",
+    element: Contact,
   },
   {
     path: "*",
