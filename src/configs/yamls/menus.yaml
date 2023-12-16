@@ -1,0 +1,10 @@
+---
+- id: 1
+  name: About Me
+  slug: /
+- id: 2
+  name: Resume
+  slug: /resume
+- id: 3
+  name: Contact
+  slug: /contact
