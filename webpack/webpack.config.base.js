@@ -146,7 +146,7 @@ const getAlias = () => ({
   widgets: getPath("src/client/components/widgets"),
   client: getPath("src/client"),
   api: getPath("src/client/api"),
-  utils: getPath("src/client/utils"),
+  "@utils": getPath("src/client/utils"),
   store: getPath("src/client/store"),
   hooks: getPath("src/client/hooks"),
   assets: getPath("src/client/assets"),

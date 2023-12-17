@@ -1,10 +1,13 @@
 ---
 - id: 1
   name: About Me
+  aria-label: about me page
   slug: /
 - id: 2
   name: Resume
+  aria-label: resume page
   slug: /resume
 - id: 3
   name: Contact
+  aria-label: contact page
   slug: /contact
