@@ -138,3 +138,6 @@ public/*
 !public/modernizr.custom.js
 
 *.tar
+
+# Local Netlify folder
+.netlify

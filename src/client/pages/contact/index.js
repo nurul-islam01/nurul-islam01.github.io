@@ -84,11 +84,7 @@ const Contact = () => (
                 <h2>How Can I Help You?</h2>
               </div>
 
-              <form
-                action='https://nurul.com/demo/leven-html-new/dark/contact_form/contact_form.php'
-                className='contact-form'
-                id='contact_form'
-                method='post'>
+              <form action='' className='contact-form' id='contact_form' method='post'>
                 <div className='messages' />
 
                 <div className='controls two-columns'>
@@ -153,11 +149,7 @@ const Contact = () => (
                     </div>
                   </div>
 
-                  <div
-                    className='g-recaptcha'
-                    data-sitekey='6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI'
-                    data-theme='dark'
-                  />
+                  <div className='g-recaptcha' data-sitekey='' data-theme='dark' />
 
                   <input className='button btn-send disabled' type='submit' value='Send message' />
                 </div>
