@@ -3,6 +3,7 @@ headers = []
 redirects = []
 
 [build]
+functions = "build"
 publish = "."
 publishOrigin = "ui"
 command = "npm  run build"
