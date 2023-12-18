@@ -9,7 +9,7 @@ redirects = []
 [build]
 publish = "/home/web22/Documents/nij/nurul"
 publishOrigin = "ui"
-command = "npm run build && npm start"
+command = "npm run build"
 commandOrigin = "ui"
 
   [build.environment]
