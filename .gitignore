@@ -107,8 +107,6 @@ dist
 # Git history
 .history
 
-build
-
 public/*
 !public/robots.txt
 !public/android-icon-*
