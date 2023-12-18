@@ -4,7 +4,7 @@ redirects = []
 
 [build]
 functions = "build"
-publish = "."
+publish = "public"
 publishOrigin = "ui"
 command = "npm  run build"
 commandOrigin = "ui"
