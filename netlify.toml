@@ -7,7 +7,7 @@ redirects = []
   [functions."*"]
 
 [build]
-publish = "."
+publish = "build"
 publishOrigin = "ui"
 command = "npm  run build && npm start"
 commandOrigin = "ui"
