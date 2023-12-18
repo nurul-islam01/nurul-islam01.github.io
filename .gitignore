@@ -108,7 +108,6 @@ dist
 .history
 
 build
-functions
 
 public/*
 !public/robots.txt

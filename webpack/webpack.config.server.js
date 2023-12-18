@@ -28,7 +28,7 @@ module.exports = merge(baseConfig(false), {
     ignored: [getPath("src/client"), getPath("src/test-utils"), "**/node_modules"],
   },
   output: {
-    path: getPath("functions"),
+    path: getPath("build"),
     filename: "index.js",
     chunkFilename: "[id].js",
     libraryTarget: "commonjs2",
