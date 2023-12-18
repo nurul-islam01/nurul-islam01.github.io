@@ -7,7 +7,7 @@ redirects = []
   [functions."*"]
 
 [build]
-publish = "/home/web22/Documents/nij/nurul"
+publish = "ui"
 publishOrigin = "ui"
 command = "npm  run build"
 commandOrigin = "ui"
