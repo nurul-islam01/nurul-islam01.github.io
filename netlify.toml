@@ -2,23 +2,13 @@ plugins = []
 headers = []
 redirects = []
 
+[[redirects]]
+  from = "/*"
+  to = "/index.js"
+  status = 200
+  force = true
+
 [build]
 functions = "build"
 publish = "/"
-publishOrigin = "ui"
 command = "npm  run build"
-commandOrigin = "ui"
-
-  [build.environment]
-
-  [build.processing]
-
-    [build.processing.css]
-
-    [build.processing.html]
-
-    [build.processing.images]
-
-    [build.processing.js]
-
-  [build.services]
