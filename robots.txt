@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Crawl-delay: 120
+Disallow: /cgi-bin/
+Sitemap: https://www.nurulislam.dev/sitemap.xml
