@@ -13,7 +13,7 @@
   "repository": "https://github.com/nurul-islam01/nurul-islam01.github.io.git",
   "license": "MIT",
   "author": "Nurul Islam hello@nurulislam.dev (https://github.com/nurul-islam01)",
-  "main": "fuctions/index.js",
+  "main": "build/index.js",
   "scripts": {
     "analyze:server": "cross-env NODE_ENV=analyze webpack --config webpack/webpack.config.server.js",
     "analyze:client": "cross-env NODE_ENV=analyze webpack --config webpack/webpack.config.client.js",
