@@ -25,4 +25,15 @@ jobs:
         run: npm run build
 
       - name: Start application
-        run: npm run start
+        run: |
+          npm run start &
+          echo "Node.js server started in the background."
+
+      - name: Wait for server to start
+        run: |
+          timeout 60 bash -c \
+          'until echo > /dev/tcp/localhost/3000; do sleep 1; done'
+          echo "Node.js server is up!"
+
+      - name: Run tests or perform additional tasks
+        run: npm test  # Adjust based on your project requirements
