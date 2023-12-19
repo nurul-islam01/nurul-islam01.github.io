@@ -34,6 +34,3 @@ jobs:
           timeout 60 bash -c \
           'until echo > /dev/tcp/localhost/3000; do sleep 1; done'
           echo "Node.js server is up!"
-
-      - name: Run tests or perform additional tasks
-        run: npm test  # Adjust based on your project requirements
