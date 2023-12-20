@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be99b7c-d2d5-479c-8701-6e5775a2b463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/meta-images/facebook.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meta-images/google.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meta-images/twitter.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4be99b7c-d2d5-479c-8701-6e5775a2b463" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +126,7 @@
       <workItem from="1702909183448" duration="17074000" />
       <workItem from="1702998539862" duration="1503000" />
       <workItem from="1703002377052" duration="1482000" />
-      <workItem from="1703005762367" duration="4278000" />
+      <workItem from="1703005762367" duration="4719000" />
     </task>
     <servers />
   </component>

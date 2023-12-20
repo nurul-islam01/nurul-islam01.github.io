@@ -1,471 +1,497 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <!-- Mirrored from nurul.com/demo/leven-html-new/dark/resume.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 12:52:45 GMT -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <title>Leven - Resume / CV / vCard Template</title>
-    <meta
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-      name="viewport"
-    />
-    <meta content="Leven - Resume / CV / vCard Template" name="description" />
-    <meta
-      content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio"
-      name="keywords"
-    />
-    <meta content="nurul" name="author" />
-    <link href="favicon.ico" rel="shortcut icon" />
+<!-- Mirrored from nurul.com/demo/leven-html-new/dark/resume.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 12:52:45 GMT -->
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <title>Resume | Nurul Islam - Full-Stack Developer</title>
+  <link href="https://www.nurulislam.dev" rel="canonical">
+  <link href="https://www.nurulislam.dev/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
 
-    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <meta content="index, follow" name="robots"> <!-- Allow search engines to index and follow links -->
+  <meta
+    content="Full-stack web development, Web development, Frontend development, Backend development, React.js, Angular, Next.js, Express.js, Webpack, HTML5, CSS3, JavaScript, Node.js, Responsive web design, Mobile-first development, Android development, React Native, Single Page Applications (SPA), Server-side rendering (SSR), Progressive Web Apps (PWAs), RESTful APIs, GraphQL, MVC architecture, Database design, SQL, NoSQL, MongoDB, Firebase, Real-time databases, Authentication systems, JWT (JSON Web Tokens), OAuth, User authorization, State management (Redux, MobX), CSS, SCSS, Responsive design, Cross-browser compatibility, Git version control, Continuous Integration (CI), Test-driven development (TDD), Unit testing, End-to-end testing, DevOps, Docker, Microservices architecture, API design, WebSockets, Socket.io, Cloud computing, AWS (Amazon Web Services), Azure, Google Cloud Platform, Deployment automation, CDN (Content Delivery Network), Performance optimization, Code splitting, Load balancing, Security best practices, HTTPS, OWASP Top 10, SEO optimization, Web analytics, CI/CD pipelines, Jira, Agile development, Scrum, Kanban, Code reviews, Pair programming, Version control branching strategies, Technical documentation, Debugging, Profiling, Webpack plugins, Babel, ESLint, Prettier, WebAssembly, Progressive enhancement, Web components, NPM (Node Package Manager), Yarn, GraphQL APIs, Code splitting, Responsive images, Web performance metrics, Frontend frameworks (Vue.js, Svelte), Material Design, Bootstrap, UI/UX design principles, Design systems, Accessibility (a11y), Cross-platform development, Mobile app optimization, Push notifications, Websockets, Full-text search, API security, Firebase Cloud Functions, FaaS (Function as a Service), Web development trends"
+    name="keywords">
 
-    <script src="js/modernizr.custom.js"></script>
-  </head>
+  <!-- Twitter meta tags -->
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="@nurulislam.dev" name="twitter:site">
+  <meta content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase"
+        name="twitter:title">
+  <meta
+    content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
+    name="twitter:description">
+  <meta content="https://www.nurulislam.dev/meta-images/twitter.jpeg" name="twitter:image">
 
-  <body class="page">
-    <div class="lm-animated-bg"></div>
+  <!-- Facebook meta tags -->
+  <meta content="website" property="og:type">
+  <meta content="https://www.nurulislam.dev" property="og:url">
+  <meta content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase"
+        property="og:title">
+  <meta
+    content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
+    property="og:description">
+  <meta content="https://www.nurulislam.dev/meta-images/facebook.jpeg" property="og:image">
 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner"></div>
+  <!-- Google meta tags (Schema.org) -->
+  <meta content="Nurul Islam - Full-Stack Developer | React, Angular, Express, SQL, MongoDB, Firebase" itemprop="name">
+  <meta
+    content="As a dedicated Full-Stack Web Developer, I, Nurul Islam, specialize in building dynamic and scalable web applications using cutting-edge technologies such as React, Angular, Express, SQL, MongoDB, and Firebase. With a passion for crafting seamless user experiences and a keen eye for detail, I bring your digital ideas to life. My expertise extends from creating responsive and mobile-friendly interfaces to implementing robust server-side logic. Whether you need a powerful e-commerce platform, a feature-rich web application, or a custom mobile app, I thrive on delivering solutions that not only meet but exceed your expectations. I am committed to staying ahead of industry trends, ensuring your project benefits from the latest advancements in web development. Let's collaborate to transform your vision into a functional and visually stunning reality. Explore my portfolio and discover the potential of innovative web solutions tailored to your unique needs."
+    itemprop="description">
+  <meta content="https://www.nurulislam.dev/meta-images/google.jpeg" itemprop="image">
+
+
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Nurul Islam",
+      "jobTitle": "Full-Stack Developer",
+      "url": "https://www.nurulislam.dev",
+      "sameAs": [
+        "https://www.facebook.com/nurul.islam001",
+        "https://github.com/nurul-islam01",
+        "https://twitter.com/nurul_islam01"
+      ]
+    }
+  </script>
+
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+  <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="page">
+<div class="lm-animated-bg"></div>
+
+<!-- Loading animation -->
+<div class="preloader">
+  <div class="preloader-animation">
+    <div class="preloader-spinner"></div>
+  </div>
+</div>
+<!-- /Loading animation -->
+
+<!-- Scroll To Top Button -->
+<div class="nurul-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+<!-- /Scroll To Top Button -->
+
+<div class="page-scroll">
+  <div
+    class="page-container bg-move-effect"
+    data-animation="transition-flip-in-right"
+    id="page_container"
+  >
+    <!-- Header -->
+    <header class="header" id="site_header">
+      <div class="header-content clearfix">
+        <!-- Text Logo -->
+        <div class="text-logo">
+          <a href="index.html">
+            <div class="logo-symbol">N</div>
+            <div class="logo-text">Nurul <span>Islam</span></div>
+          </a>
+        </div>
+        <!-- /Text Logo -->
+
+        <!-- Navigation -->
+        <div class="site-nav mobile-menu-hide">
+          <ul class="leven-classic-menu site-main-menu">
+            <li class="menu-item menu-item-has-children current-menu-item">
+              <a href="index.html">About Me</a>
+            </li>
+
+            <li class="menu-item">
+              <a href="resume.html">Resume</a>
+            </li>
+
+            <!--                <li class="menu-item menu-item-has-children">-->
+            <!--                  <a href="blog.html">Blog</a>-->
+            <!--                  <ul class="sub-menu">-->
+            <!--                    <li class="menu-item">-->
+            <!--                      <a href="blog.html">Blog 2 Columns</a>-->
+            <!--                    </li>-->
+            <!--                    <li class="menu-item">-->
+            <!--                      <a href="blog-3-columns.html">Blog 3 Columns</a>-->
+            <!--                    </li>-->
+            <!--                  </ul>-->
+            <!--                </li>-->
+
+            <li class="menu-item">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+        <!-- Mobile Menu Toggle -->
       </div>
-    </div>
-    <!-- /Loading animation -->
+    </header>
+    <!-- /Header -->
 
-    <!-- Scroll To Top Button -->
-    <div class="nurul-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
-    <!-- /Scroll To Top Button -->
-
-    <div class="page-scroll">
-      <div
-        class="page-container bg-move-effect"
-        data-animation="transition-flip-in-right"
-        id="page_container"
-      >
-        <!-- Header -->
-        <header class="header" id="site_header">
-          <div class="header-content clearfix">
-            <!-- Text Logo -->
-            <div class="text-logo">
-              <a href="index.html">
-                <div class="logo-symbol">A</div>
-                <div class="logo-text">Alex <span>Smith</span></div>
-              </a>
+    <div class="site-main" id="main">
+      <div class="single-page-content" id="main-content">
+        <div class="content-area" id="primary">
+          <div class="page-title">
+            <h1>Resume</h1>
+            <div class="page-subtitle">
+              <h4>5 Years of Experience</h4>
             </div>
-            <!-- /Text Logo -->
-
-            <!-- Navigation -->
-            <div class="site-nav mobile-menu-hide">
-              <ul class="leven-classic-menu site-main-menu">
-                <li class="menu-item menu-item-has-children">
-                  <a href="index.html">About Me</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="index.html">About Me 1</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="index-2.html">About Me 2</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item current-menu-item">
-                  <a href="resume.html">Resume</a>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="portfolio.html">Portfolio</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="portfolio-2-columns.html">Portfolio 2 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio.html">Portfolio 3 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio-4-columns.html">Portfolio 4 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio-5-columns.html">Portfolio 5 Columns</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="blog.html">Blog</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="blog.html">Blog 2 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="blog-3-columns.html">Blog 3 Columns</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item">
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-
-            <a class="menu-toggle mobile-visible">
-              <i class="fa fa-bars"></i>
-            </a>
           </div>
-        </header>
-        <!-- /Header -->
 
-        <div class="site-main" id="main">
-          <div class="single-page-content" id="main-content">
-            <div class="content-area" id="primary">
-              <div class="page-title">
-                <h1>Resume</h1>
-                <div class="page-subtitle">
-                  <h4>5 Years of Experience</h4>
+          <div
+            class="page-content site-content single-post"
+            id="content"
+            role="main"
+          >
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="block-title">
+                  <h2>Education</h2>
+                </div>
+
+                <div class="timeline clearfix" id="timeline_1">
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period">2017</h5>
+                    <span class="item-company"
+                    >Institute of Science and Technology</span
+                    >
+                    <h4 class="item-title">
+                      Computer Science and Engineering
+                    </h4>
+                    <p>
+                      Computer Science and Engineering graduate with a
+                      passion for problem-solving and innovation. Excited to
+                      apply my skills in creating cutting-edge solutions for
+                      real-world challenges.
+                    </p>
+                  </div>
+
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period">2012</h5>
+                    <span class="item-company"
+                    >Altajar Rahman Degree College</span
+                    >
+                    <h4 class="item-title">Higher Secondary Certificate</h4>
+                    <p>
+                      Science graduate since 2012, bringing a decade of
+                      experience and a foundation in critical thinking to
+                      tackle challenges in diverse domains.
+                    </p>
+                  </div>
+
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period">2010</h5>
+                    <span class="item-company"
+                    >Zangalia School and College</span
+                    >
+                    <h4 class="item-title">Secondary School Certificate</h4>
+                    <p>
+                      Completed SSC in Science in 2010, I bring over 10
+                      years of experience, combining analytical skills with
+                      a strong scientific background.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div
-                class="page-content site-content single-post"
-                id="content"
-                role="main"
-              >
-                <div class="row">
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="block-title">
-                      <h2>Education</h2>
-                    </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="block-title">
+                  <h2>Experience</h2>
+                </div>
 
-                    <div class="timeline clearfix" id="timeline_1">
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period">2017</h5>
-                        <span class="item-company"
-                          >Institute of Science and Technology</span
-                        >
-                        <h4 class="item-title">
-                          Computer Science and Engineering
-                        </h4>
-                        <p>
-                          Computer Science and Engineering graduate with a
-                          passion for problem-solving and innovation. Excited to
-                          apply my skills in creating cutting-edge solutions for
-                          real-world challenges.
-                        </p>
-                      </div>
-
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period">2012</h5>
-                        <span class="item-company"
-                          >Altajar Rahman Degree College</span
-                        >
-                        <h4 class="item-title">Higher Secondary Certificate</h4>
-                        <p>
-                          Science graduate since 2012, bringing a decade of
-                          experience and a foundation in critical thinking to
-                          tackle challenges in diverse domains.
-                        </p>
-                      </div>
-
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period">2010</h5>
-                        <span class="item-company"
-                          >Zangalia School and College</span
-                        >
-                        <h4 class="item-title">Secondary School Certificate</h4>
-                        <p>
-                          Completed SSC in Science in 2010, I bring over 10
-                          years of experience, combining analytical skills with
-                          a strong scientific background.
-                        </p>
-                      </div>
-                    </div>
+                <div class="timeline clearfix" id="timeline_2">
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period current">2021 - Current</h5>
+                    <span class="item-company">Prothom Alo</span>
+                    <h4 class="item-title">Senior Fullstack developer</h4>
+                    <p>
+                      I've been working with Prothom Alo, contributing as a
+                      Fullstack developer. Excited about the dynamic
+                      projects and continuous growth in the ever-evolving
+                      tech landscape.
+                    </p>
                   </div>
 
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="block-title">
-                      <h2>Experience</h2>
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period">2019 - 2021</h5>
+                    <span class="item-company">Nassa Group</span>
+                    <h4 class="item-title">
+                      Web and Android App Developer
+                    </h4>
+                    <p>
+                      I served here as a Web and Android App Developer,
+                      honing my skills in crafting digital solutions for a
+                      diverse range of platforms
+                    </p>
+                  </div>
+
+                  <div class="timeline-item clearfix">
+                    <h5 class="item-period">2018</h5>
+                    <span class="item-company">Wizdoor</span>
+                    <h4 class="item-title">Junior App developer</h4>
+                    <p>
+                      Starting my live from this company, in here i was work
+                      on also a web and android app developer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12">
+                <div class="p-20"></div>
+
+                <div class="block-title">
+                  <h2>Certificates</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="lightbox">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img alt="logo" src="img/icons/creative-it.png" />
                     </div>
 
-                    <div class="timeline clearfix" id="timeline_2">
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2021 - Current</h5>
-                        <span class="item-company">Prothom Alo</span>
-                        <h4 class="item-title">Senior Fullstack developer</h4>
-                        <p>
-                          I've been working with Prothom Alo, contributing as a
-                          Fullstack developer. Excited about the dynamic
-                          projects and continuous growth in the ever-evolving
-                          tech landscape.
-                        </p>
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4>Web Development</h4>
                       </div>
 
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period">2019 - 2021</h5>
-                        <span class="item-company">Nassa Group</span>
-                        <h4 class="item-title">
-                          Web and Android App Developer
-                        </h4>
-                        <p>
-                          I served here as a Web and Android App Developer,
-                          honing my skills in crafting digital solutions for a
-                          diverse range of platforms
-                        </p>
+                      <div class="certi-id">
+                        <span>Membership ID: SD-10397</span>
+                      </div>
+                      <div class="certi-date">
+                        <span>19 April 2017</span>
                       </div>
 
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period">2018</h5>
-                        <span class="item-company">Wizdoor</span>
-                        <h4 class="item-title">Junior App developer</h4>
-                        <p>
-                          Starting my live from this company, in here i was work
-                          on also a web and android app developer.
-                        </p>
+                      <div class="certi-company">
+                        <span></span>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="p-20"></div>
-
-                    <div class="block-title">
-                      <h2>Certificates</h2>
+              <div class="col-xs-12 col-sm-6">
+                <div class="lightbox">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img alt="logo" src="img/icons/seip.png" />
                     </div>
-                  </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="lightbox">
-                      <div class="certificate-item clearfix">
-                        <div class="certi-logo">
-                          <img alt="logo" src="img/icons/creative-it.png" />
-                        </div>
-
-                        <div class="certi-content">
-                          <div class="certi-title">
-                            <h4>Web Development</h4>
-                          </div>
-
-                          <div class="certi-id">
-                            <span>Membership ID: SD-10397</span>
-                          </div>
-                          <div class="certi-date">
-                            <span>19 April 2017</span>
-                          </div>
-
-                          <div class="certi-company">
-                            <span></span>
-                          </div>
-                        </div>
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4>Android App Development</h4>
                       </div>
-                    </div>
-                  </div>
 
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="lightbox">
-                      <div class="certificate-item clearfix">
-                        <div class="certi-logo">
-                          <img alt="logo" src="img/icons/seip.png" />
-                        </div>
+                      <div class="certi-id">
+                        <span>Membership ID: 197689</span>
+                      </div>
 
-                        <div class="certi-content">
-                          <div class="certi-title">
-                            <h4>Android App Development</h4>
-                          </div>
+                      <div class="certi-date">
+                        <span>19 April 2018</span>
+                      </div>
 
-                          <div class="certi-id">
-                            <span>Membership ID: 197689</span>
-                          </div>
-
-                          <div class="certi-date">
-                            <span>19 April 2018</span>
-                          </div>
-
-                          <div class="certi-company">
-                            <span></span>
-                          </div>
-                        </div>
+                      <div class="certi-company">
+                        <span></span>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="p-40"></div>
-                  </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12">
+                <div class="p-40"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12">
+                <div class="block-title">
+                  <h2>Coding Skills</h2>
                 </div>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="block-title">
-                      <h2>Coding Skills</h2>
-                    </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="skills-info skills-first-style" id="skills_1">
+                  <!-- Skill 1 -->
+                  <div class="clearfix">
+                    <h4>Javascript, TypeScript</h4>
+                    <div class="skill-value">95%</div>
                   </div>
+
+                  <div class="skill-container" data-value="95" id="skill_1">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 1 -->
+
+                  <!-- Skill 2 -->
+                  <div class="clearfix">
+                    <h4>Java</h4>
+                    <div class="skill-value">75%</div>
+                  </div>
+
+                  <div class="skill-container" data-value="75" id="skill_2">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 2 -->
+
+                  <!-- Skill 3 -->
+                  <div class="clearfix">
+                    <h4>Nodejs</h4>
+                    <div class="skill-value">85%</div>
+                  </div>
+                  <div class="skill-container" data-value="85" id="skill_3">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- Skill 3 -->
+
+                  <!-- Skill 4 -->
+                  <div class="clearfix">
+                    <h4>React, Angular</h4>
+                    <div class="skill-value">95%</div>
+                  </div>
+                  <div class="skill-container" data-value="95" id="skill_4">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 4 -->
+                  <!-- Skill 5 -->
+                  <div class="clearfix">
+                    <h4>React SSR, NextJS</h4>
+                    <div class="skill-value">95%</div>
+                  </div>
+                  <div class="skill-container" data-value="95" id="skill_5">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 5 -->
                 </div>
+              </div>
 
-                <div class="row">
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="skills-info skills-first-style" id="skills_1">
-                      <!-- Skill 1 -->
-                      <div class="clearfix">
-                        <h4>Javascript, TypeScript</h4>
-                        <div class="skill-value">95%</div>
-                      </div>
-
-                      <div class="skill-container" data-value="95" id="skill_1">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 1 -->
-
-                      <!-- Skill 2 -->
-                      <div class="clearfix">
-                        <h4>Java</h4>
-                        <div class="skill-value">75%</div>
-                      </div>
-
-                      <div class="skill-container" data-value="75" id="skill_2">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 2 -->
-
-                      <!-- Skill 3 -->
-                      <div class="clearfix">
-                        <h4>Nodejs</h4>
-                        <div class="skill-value">85%</div>
-                      </div>
-                      <div class="skill-container" data-value="85" id="skill_3">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- Skill 3 -->
-
-                      <!-- Skill 4 -->
-                      <div class="clearfix">
-                        <h4>React, Angular</h4>
-                        <div class="skill-value">95%</div>
-                      </div>
-                      <div class="skill-container" data-value="95" id="skill_4">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 4 -->
-                      <!-- Skill 5 -->
-                      <div class="clearfix">
-                        <h4>React SSR, NextJS</h4>
-                        <div class="skill-value">95%</div>
-                      </div>
-                      <div class="skill-container" data-value="95" id="skill_5">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 5 -->
-                    </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="skills-info skills-first-style" id="skills_2">
+                  <!-- Skill 5 -->
+                  <div class="clearfix">
+                    <h4>Express</h4>
+                    <div class="skill-value">90%</div>
                   </div>
-
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="skills-info skills-first-style" id="skills_2">
-                      <!-- Skill 5 -->
-                      <div class="clearfix">
-                        <h4>Express</h4>
-                        <div class="skill-value">90%</div>
-                      </div>
-                      <div class="skill-container" data-value="90" id="skill_6">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 5 -->
-
-                      <!-- Skill 6 -->
-                      <div class="clearfix">
-                        <h4>MONGODB, SQL, Firebase, GraphQL</h4>
-                        <div class="skill-value">90%</div>
-                      </div>
-                      <div class="skill-container" data-value="90" id="skill_7">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 6 -->
-
-                      <!-- Skill 7 -->
-                      <div class="clearfix">
-                        <h4>Native Android</h4>
-                        <div class="skill-value">80%</div>
-                      </div>
-                      <div class="skill-container" data-value="80" id="skill_8">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 7 -->
-
-                      <!-- Skill 8 -->
-                      <div class="clearfix">
-                        <h4>Webpack expert</h4>
-                        <div class="skill-value">90%</div>
-                      </div>
-                      <div class="skill-container" data-value="90" id="skill_9">
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 8 -->
-                      <!-- Skill 10 -->
-                      <div class="clearfix">
-                        <h4>HTML, CSS, JQUERY, Tailwind, Bootstrap</h4>
-                        <div class="skill-value">85%</div>
-                      </div>
-                      <div
-                        class="skill-container"
-                        data-value="85"
-                        id="skill_10"
-                      >
-                        <div class="skill-percentage"></div>
-                      </div>
-                      <!-- /Skill 8 -->
-                    </div>
+                  <div class="skill-container" data-value="90" id="skill_6">
+                    <div class="skill-percentage"></div>
                   </div>
+                  <!-- /Skill 5 -->
+
+                  <!-- Skill 6 -->
+                  <div class="clearfix">
+                    <h4>MONGODB, SQL, Firebase, GraphQL</h4>
+                    <div class="skill-value">90%</div>
+                  </div>
+                  <div class="skill-container" data-value="90" id="skill_7">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 6 -->
+
+                  <!-- Skill 7 -->
+                  <div class="clearfix">
+                    <h4>Native Android</h4>
+                    <div class="skill-value">80%</div>
+                  </div>
+                  <div class="skill-container" data-value="80" id="skill_8">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 7 -->
+
+                  <!-- Skill 8 -->
+                  <div class="clearfix">
+                    <h4>Webpack expert</h4>
+                    <div class="skill-value">90%</div>
+                  </div>
+                  <div class="skill-container" data-value="90" id="skill_9">
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 8 -->
+                  <!-- Skill 10 -->
+                  <div class="clearfix">
+                    <h4>HTML, CSS, JQUERY, Tailwind, Bootstrap</h4>
+                    <div class="skill-value">85%</div>
+                  </div>
+                  <div
+                    class="skill-container"
+                    data-value="85"
+                    id="skill_10"
+                  >
+                    <div class="skill-percentage"></div>
+                  </div>
+                  <!-- /Skill 8 -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <footer class="site-footer clearfix">
-          <div class="footer-social">
-            <ul class="footer-social-links">
-              <li>
-                <a href="#" target="_blank">Twitter</a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">Facebook</a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">Instagram</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-copyrights">
-            <p>© 2020 All rights reserved. nurul.</p>
-          </div>
-        </footer>
       </div>
     </div>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="../../../../www.google.com/recaptcha/api.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYBeOYAcGm17WOBz2XIW-Pdlqs0KXnuUU"></script>
-    <script src="js/jquery.googlemap.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    <footer class="site-footer clearfix">
+      <div class="footer-social">
+        <ul class="footer-social-links">
+          <li>
+            <a href="https://twitter.com/nurul_islam01" target="_blank"
+            >Twitter</a
+            >
+          </li>
 
-  <!-- Mirrored from nurul.com/demo/leven-html-new/dark/resume.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 12:52:49 GMT -->
+          <li>
+            <a
+              href="https://www.facebook.com/nurul.islam001"
+              target="_blank"
+            >Facebook</a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/__p_u_t_i__" target="_blank"
+            >Instagram</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-copyrights">
+        <p>© 2023 All rights reserved. Nurul Islam.</p>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="../../../../www.google.com/recaptcha/api.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYBeOYAcGm17WOBz2XIW-Pdlqs0KXnuUU"></script>
+<script src="js/jquery.googlemap.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from nurul.com/demo/leven-html-new/dark/resume.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 12:52:49 GMT -->
 </html>
