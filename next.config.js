@@ -1,3 +1,4 @@
+const withOffline = require('next-offline');
 const path = require('path');
 
 const nextConfig = {
@@ -24,7 +25,24 @@ const nextConfig = {
 
     return config;
   },
-  output: 'export'
+  output: 'export',
+  workboxOpts: {
+    swDest: 'static/service-worker.js',
+    runtimeCaching: [
+      {
+        urlPattern: /^https?.*/,
+        handler: 'NetworkFirst',
+        options: {
+          cacheName: 'offlineCache',
+          expiration: {
+            maxEntries: 200,
+            maxAgeSeconds: 30 * 24 * 60 * 60
+          },
+          networkTimeoutSeconds: 10
+        }
+      }
+    ]
+  }
 };
 
-module.exports = nextConfig;
+module.exports = withOffline(nextConfig);
