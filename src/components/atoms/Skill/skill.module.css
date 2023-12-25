@@ -1,46 +1,45 @@
-
 .base {
-    width: 100%;
+  width: 100%;
 }
 
 .skill-name {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
 }
 
 .skill-name h4 {
-    font-size: 13px;
-    line-height: 1.1em;
-    font-weight: 600;
-    color: #f5f5f5;
-    margin: 0 0 4px;
+  font-size: 13px;
+  line-height: 1.1em;
+  font-weight: 600;
+  color: #f5f5f5;
+  margin: 0 0 4px;
 }
 
 .skill-name span {
-    font-size: 11px;
-    line-height: 1.1em;
-    position: relative;
-    float: right;
-    margin: 0 0 4px;
-    color: #888;
+  font-size: 11px;
+  line-height: 1.1em;
+  position: relative;
+  float: right;
+  margin: 0 0 4px;
+  color: #888;
 }
 
 .bar {
-    display: block;
-    width: 100%;
-    height: 12px;
-    border-radius: 8px;
-    background-color: transparent;
-    border: 2px solid #444;
+  display: block;
+  width: 100%;
+  height: 12px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #444;
 }
 
 .progress {
-    background-color: #007ced;
-    border: 2px solid #222;
-    -moz-border-radius: 9px;
-    -webkit-border-radius: 9px;
-    border-radius: 9px;
-    height: 8px;
-    padding: 0;
+  background-color: #007ced;
+  border: 2px solid #222;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  height: 8px;
+  padding: 0;
 }

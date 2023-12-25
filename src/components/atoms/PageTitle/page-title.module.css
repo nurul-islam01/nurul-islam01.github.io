@@ -1,42 +1,40 @@
-
 .base {
-    background-color: #252525;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    padding: 30px 40px;
+  background-color: #252525;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 30px 40px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .base h1 {
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--white-smoke);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--white-smoke);
 }
 
 .base h4 {
-    color: #aaa;
-    font-size: 14px;
-    font-weight: var(--normal);
-
+  color: #aaa;
+  font-size: 14px;
+  font-weight: var(--normal);
 }
 
 @media (min-width: 834px) {
-    .base {
-        padding-top: 0;
-        padding-bottom: 65px;
-    }
+  .base {
+    padding-top: 0;
+    padding-bottom: 65px;
+  }
 
-    .base h1 {
-        font-size: 44px;
-        order: 1;
-    }
+  .base h1 {
+    font-size: 44px;
+    order: 1;
+  }
 
-    .base h4 {
-        text-align: end;
-        margin: 1.33em 0;
-    }
+  .base h4 {
+    text-align: end;
+    margin: 1.33em 0;
+  }
 }

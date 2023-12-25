@@ -1,56 +1,56 @@
 .base {
-    display: grid;
-    max-width: 1100px;
-    width: 100%;
-    padding: 50px 40px 30px;
-    margin: 0 auto;
+  display: grid;
+  max-width: 1100px;
+  width: 100%;
+  padding: 50px 40px 30px;
+  margin: 0 auto;
 }
 
 .does {
-    display: grid;
-    gap: 24px;
+  display: grid;
+  gap: 24px;
 }
 
 .icon {
-    position: relative;
-    display: table-cell;
-    width: 44px;
+  position: relative;
+  display: table-cell;
+  width: 44px;
 }
 
 .linecons {
-    font-size: 33px;
+  font-size: 33px;
 }
 
 .does-item {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 44px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 44px auto;
 }
 
 .item-info {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .item-info h4 {
-    font-size: 18px;
-    color: var(--white-smoke);
-    font-weight: var(--bold);
+  font-size: 18px;
+  color: var(--white-smoke);
+  font-weight: var(--bold);
 }
 
 .item-info p {
-    font-size: 0.92em;
-    line-height: 1.75em;
-    color: var(--light-gray);
+  font-size: 0.92em;
+  line-height: 1.75em;
+  color: var(--light-gray);
 }
 
 @media (min-width: 834px) {
-    .base {
-        padding: 50px 0 0 0;
-    }
+  .base {
+    padding: 50px 0 0 0;
+  }
 
-    .does {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .does {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

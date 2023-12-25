@@ -1,28 +1,27 @@
-@import "linear-icons.css";
+@import 'linear-icons.css';
 
 .open {
-    display: grid;
-    right: 0 !important;
+  display: grid;
+  right: 0 !important;
 }
 
 .content {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 834px) {
-    body::-webkit-scrollbar {
-        position: absolute;
-        width: 5px;
-        margin-left: -5px;
-    }
+  body::-webkit-scrollbar {
+    position: absolute;
+    width: 5px;
+    margin-left: -5px;
+  }
 
-    body::-webkit-scrollbar-track {
-        background-color: #fff;
-    }
+  body::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
 
-    body::-webkit-scrollbar-thumb {
-        background-color: #d5d5d5;
-    }
+  body::-webkit-scrollbar-thumb {
+    background-color: #d5d5d5;
+  }
 }
-

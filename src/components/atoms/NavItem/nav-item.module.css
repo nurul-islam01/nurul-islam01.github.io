@@ -1,27 +1,27 @@
 .base {
-    display: inline-grid;
-    padding: 1rem;
+  display: inline-grid;
+  padding: 1rem;
 }
 
 .link {
-    opacity: .55;
-    transition: opacity var(--transition-300) ease-in-out;
+  opacity: 0.55;
+  transition: opacity var(--transition-300) ease-in-out;
 }
 
 .link {
-    color: var(--white-smoke);
+  color: var(--white-smoke);
 }
 
 .link:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .active {
-    opacity: 1;
+  opacity: 1;
 }
 
 @media (min-width: 834px) {
-    .base {
-        padding: .5rem 2rem;
-    }
+  .base {
+    padding: 0.5rem 2rem;
+  }
 }

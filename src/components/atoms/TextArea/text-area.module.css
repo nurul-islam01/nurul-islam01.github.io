@@ -1,18 +1,18 @@
 .base {
-    display: block;
-    height: 90%;
-    width: 100%;
-    min-width: 100%;
-    border: 2px solid #555;
-    border-radius: 5px;
-    font-size: 1em;
-    padding: 10px 25px 10px 12px;
-    max-width: 50%;
-    text-align: left;
-    color: #eee;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    outline: none;
-    background-color: transparent;
+  display: block;
+  height: 90%;
+  width: 100%;
+  min-width: 100%;
+  border: 2px solid #555;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px 25px 10px 12px;
+  max-width: 50%;
+  text-align: left;
+  color: #eee;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
 }
