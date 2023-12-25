@@ -21,7 +21,7 @@ const Contacts = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('/api/email', state);
+      await axios.post('/api/email', state);
     } catch (error) {
       console.error('Error submitting form:', error);
     }

@@ -1,16 +1,40 @@
 const path = require('path');
 const withOffline = require('next-offline');
 const withPwa = require('next-pwa');
+const runtimeCaching = require('next-pwa/cache');
 const withPlugin = require('next-compose-plugins');
 
 const nextConfig = withPlugin(
   [
-    withPwa,
-    {
-      generateSw: true,
-      workerName: 'service-worker.js'
-    },
-    withOffline
+    [
+      withPwa,
+      {
+        pwa: {
+          dest: 'public',
+          runtimeCaching
+        }
+      }
+    ],
+    [
+      withOffline,
+      {
+        workbox: {
+          swDest: 'static/service-worker.js',
+          runtimeCaching: [
+            {
+              urlPattern: /^https?.*/,
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'offlineCache',
+                expiration: {
+                  maxEntries: 200
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
   ],
   {
     reactStrictMode: true,

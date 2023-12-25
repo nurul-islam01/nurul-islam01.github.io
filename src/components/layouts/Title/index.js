@@ -55,7 +55,7 @@ const Title = () => (
     />
 
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="/manifest.json" />
   </Head>
 );
 
