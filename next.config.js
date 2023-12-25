@@ -3,10 +3,6 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   generateSw: true,
-  pwa: {
-    dest: 'public',
-    swSrc: 'service-worker.js'
-  },
   scope: '/',
   reactStrictMode: true,
   sassOptions: {
