@@ -25,6 +25,9 @@ const nextConfig = {
 
     return config;
   },
+  images: {
+    unoptimized: true
+  },
   output: 'export',
   workboxOpts: {
     swDest: 'static/service-worker.js',
