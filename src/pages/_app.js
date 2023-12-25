@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
         navigator.serviceWorker
           .register('/service-worker.js', { scope: '/' })
           .then(function (registration) {
-            console.log('SW registered: ', registration);
+            console.log('SW registered: ');
           })
           .catch(function (registrationError) {
             console.log('SW registration failed: ', registrationError);
