@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "format": "npx prettier --write .",
@@ -14,6 +15,7 @@
     "axios": "^1.6.2",
     "next": "14.0.4",
     "next-offline": "^5.0.5",
+    "next-sitemap": "^4.2.3",
     "nodemailer": "^6.9.7",
     "prop-types": "^15.8.1",
     "react": "^18",
