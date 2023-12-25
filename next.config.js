@@ -19,7 +19,8 @@ const nextConfig = {
 
     return config;
   },
-  basePath: '/github-pages'
+  basePath: '/github-pages',
+  output: 'export'
 };
 
 module.exports = withOffline(nextConfig);
