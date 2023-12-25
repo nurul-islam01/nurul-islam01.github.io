@@ -1,10 +1,8 @@
+const withPWA = require('next-pwa');
 const withOffline = require('next-offline');
 const path = require('path');
 
 const nextConfig = {
-  generateSw: true,
-  scope: '/',
-  reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
@@ -25,26 +23,13 @@ const nextConfig = {
 
     return config;
   },
+  output: 'export',
+  pwa: {
+    dest: 'public',
+    disable: process.env.NODE_ENV === 'development'
+  },
   images: {
     unoptimized: true
-  },
-  output: 'export',
-  workboxOpts: {
-    swDest: 'static/service-worker.js',
-    runtimeCaching: [
-      {
-        urlPattern: /^https?.*/,
-        handler: 'NetworkFirst',
-        options: {
-          cacheName: 'offlineCache',
-          expiration: {
-            maxEntries: 200,
-            maxAgeSeconds: 30 * 24 * 60 * 60
-          },
-          networkTimeoutSeconds: 10
-        }
-      }
-    ]
   }
 };
 

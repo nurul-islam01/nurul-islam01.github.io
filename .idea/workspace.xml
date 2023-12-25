@@ -9,7 +9,8 @@
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap-0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap-0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/Container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Container/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
       <workItem from="1703427206432" duration="17337000" />
       <workItem from="1703480893077" duration="16086000" />
       <workItem from="1703509933173" duration="457000" />
-      <workItem from="1703511771190" duration="22792000" />
+      <workItem from="1703511771190" duration="24917000" />
     </task>
     <servers />
   </component>

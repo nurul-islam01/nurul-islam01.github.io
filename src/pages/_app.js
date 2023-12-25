@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+
 import Container from '@/components/layouts/Container';
 
 import '@/styles/globals.css';

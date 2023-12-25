@@ -1,4 +1,5 @@
 import React from 'react';
+import { node } from 'prop-types';
 import { Poppins } from 'next/font/google';
 
 import Header from '@/components/layouts/Header';
@@ -14,16 +15,22 @@ const poppins = Poppins({
   display: 'swap'
 });
 
-export default function Container({ children }) {
+const Container = ({ children }) => {
   return (
     <main className={poppins.className}>
       <Title />
       <div className={styles.background} />
       <div className={styles.base}>
         <Header />
-        {children}
+        <>{children}</>
         <Footer />
       </div>
     </main>
   );
-}
+};
+
+Container.propTypes = {
+  children: node
+};
+
+export default Container;
