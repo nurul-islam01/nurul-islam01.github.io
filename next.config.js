@@ -10,17 +10,15 @@ const nextConfig = withPlugin(
       withPwa,
       {
         pwa: {
-          dest: 'public'
+          dest: 'public',
+          runtimeCaching
         }
       }
     ],
     [
       withOffline,
       {
-        scope: '/',
-        workboxOpts: {
-          runtimeCaching
-        }
+        scope: '/'
       }
     ]
   ],
