@@ -1,15 +1,27 @@
 const path = require('path');
-const runtimeCaching = require('next-pwa/cache');
 
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
+  generateSw: true,
+  workboxOpts: {
+    runtimeCaching: [
+      {
+        urlPattern: /^https?.*/,
+        handler: 'NetworkFirst',
+        options: {
+          cacheName: 'offlineCache',
+          expiration: {
+            maxEntries: 200
+          }
+        }
+      }
+    ]
+  },
   pwa: {
-    dest: 'public',
-    runtimeCaching
+    dest: 'public'
   },
   scope: '/',
-  assetPrefix: isProd ? 'https://www.nurulislam.dev' : undefined,
   reactStrictMode: true,
   images: {
     unoptimized: true
