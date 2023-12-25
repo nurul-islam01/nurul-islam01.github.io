@@ -19,7 +19,6 @@ const nextConfig = {
 
     return config;
   },
-  basePath: '/github-pages',
   output: 'export'
 };
 
