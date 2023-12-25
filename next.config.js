@@ -8,7 +8,7 @@ const nextConfig = {
     dest: 'public',
     runtimeCaching
   },
-  distDir: 'out',
+  distDir: './out',
   scope: '/',
   assetPrefix: isProd ? 'https://www.nurulislam.dev' : undefined,
   reactStrictMode: true,
@@ -19,6 +19,13 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')]
   },
   eslint: { ignoreDuringBuilds: true },
+  exportPathMap: async () => {
+    return {
+      '/': { page: '/' },
+      '/resume': { page: '/resume' },
+      '/contact': { page: '/contact' }
+    };
+  },
   i18n: {
     locales: ['en'],
     defaultLocale: 'en'
