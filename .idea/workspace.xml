@@ -4,8 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be99b7c-d2d5-479c-8701-6e5775a2b463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/linecons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Input/input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/NavItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/NavItem/nav-item.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/PageTitle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/PageTitle/page-title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/SectionTitle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/SectionTitle/section-title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Skill/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Skill/skill.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TextArea/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TextArea/text-area.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Container/container.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Title/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Certificates/certificates.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Certificates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Clients/clients.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Clients/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/contacts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Education/education.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Education/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/IDo/i-do.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/IDo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Intro/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Intro/intro.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Location/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Location/location.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Pricing/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Pricing/pricing.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Skills/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Skills/skills.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Testimonial/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Testimonial/testimonial.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/biggan-chinta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/bondhushava.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/kishoralo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/nagorik.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/palo-bangla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/palo-english.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/contact.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/resume/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/resume/resume.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/linear-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,37 +91,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1702963448" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="gh-pages" />
-                    <option name="lastUsedInstant" value="1702963286" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,9 +100,9 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2ZU21oiM16JyUhlrwArAqW6w0tK" />
+  <component name="ProjectId" id="2ZnAafFi81RhkyHCOWM4SW2C058" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -69,77 +114,73 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.9.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.9.5&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/web22/Documents/nij/nuru-next&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/web22/Documents/nij/nurul-next-app/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;/home/web22/Documents/nij/nurul/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;/home/web22/.nvm/versions/node/v20.9.0/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/web22/Documents/nij/nurul/node_modules/prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/web22/Documents/nij/nurul-next-app/node_modules/prettier&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/349/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/351/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/static-assets/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4be99b7c-d2d5-479c-8701-6e5775a2b463" name="Changes" comment="" />
+      <changelist id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
       <created>1696932700156</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696932700156</updated>
-      <workItem from="1702462125603" duration="4899000" />
-      <workItem from="1702467156652" duration="4385000" />
-      <workItem from="1702471564188" duration="33000" />
-      <workItem from="1702480240053" duration="1178000" />
-      <workItem from="1702484940248" duration="3126000" />
-      <workItem from="1702488539487" duration="5000" />
-      <workItem from="1702535026768" duration="5000" />
-      <workItem from="1702661262898" duration="1290000" />
-      <workItem from="1702708540904" duration="19880000" />
-      <workItem from="1702739512092" duration="9409000" />
-      <workItem from="1702790285428" duration="20000" />
-      <workItem from="1702832676493" duration="4892000" />
-      <workItem from="1702876447499" duration="603000" />
-      <workItem from="1702893974771" duration="6355000" />
-      <workItem from="1702901000376" duration="5446000" />
-      <workItem from="1702909183448" duration="17074000" />
-      <workItem from="1702998539862" duration="1503000" />
-      <workItem from="1703002377052" duration="1482000" />
-      <workItem from="1703005762367" duration="4719000" />
-      <workItem from="1703046836185" duration="343000" />
-      <workItem from="1703058300575" duration="968000" />
-      <workItem from="1703080390235" duration="4000" />
-      <workItem from="1703244178329" duration="1943000" />
+      <workItem from="1703047536079" duration="157000" />
+      <workItem from="1703048696348" duration="70000" />
+      <workItem from="1703057902375" duration="397000" />
+      <workItem from="1703064062372" duration="4473000" />
+      <workItem from="1703080396592" duration="11397000" />
+      <workItem from="1703136690431" duration="5000" />
+      <workItem from="1703157508796" duration="1638000" />
+      <workItem from="1703169775253" duration="17000" />
+      <workItem from="1703249347146" duration="11323000" />
+      <workItem from="1703308587716" duration="10079000" />
+      <workItem from="1703324817517" duration="47000" />
+      <workItem from="1703325058531" duration="11474000" />
+      <workItem from="1703341568976" duration="11667000" />
+      <workItem from="1703395081329" duration="5025000" />
+      <workItem from="1703403221580" duration="14557000" />
+      <workItem from="1703427206432" duration="17337000" />
+      <workItem from="1703480893077" duration="16086000" />
+      <workItem from="1703509933173" duration="457000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.toml" />
   </component>
 </project>

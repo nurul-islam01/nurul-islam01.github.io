@@ -1,0 +1,32 @@
+{
+  "name": "nurul-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "next": "14.0.4",
+    "next-offline": "^5.0.5",
+    "nodemailer": "^6.9.7",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.5"
+  }
+}

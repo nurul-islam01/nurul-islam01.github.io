@@ -1,0 +1,12 @@
+.base {
+    max-width: 1100px;
+    width: 100%;
+    padding: 50px 40px 30px;
+    margin: 0 auto;
+}
+
+@media (min-width: 834px) {
+    .base {
+        padding: 52px 0 0;
+    }
+}

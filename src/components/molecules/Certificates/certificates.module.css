@@ -1,0 +1,77 @@
+.base {
+    display: grid;
+    max-width: 1100px;
+    width: 100%;
+    padding: 50px 40px 30px;
+    margin: 0 auto;
+}
+
+.certificates {
+    display: grid;
+    gap: 32px;
+}
+
+.certificate {
+    display: grid;
+    grid-template-columns: 120px auto;
+    position: relative;
+    width: 100%;
+    border: 2px solid #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.image {
+    display: grid;
+    width: 120px;
+    height: 100%;
+    background-color: #444;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 25px;
+    vertical-align: middle;
+    gap: 6px;
+}
+
+.content h4 {
+    color: var(--white-smoke);
+}
+
+.content p {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.content time {
+    opacity: 0.7;
+    color: #777;
+    font-size: 0.7em;
+}
+
+@media (min-width: 1280px) {
+    .base {
+        padding: 52px 0 0;
+        width: 1100px;
+    }
+
+    .certificates {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

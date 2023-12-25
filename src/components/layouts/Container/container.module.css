@@ -1,0 +1,41 @@
+.background {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/main_bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.base {
+    position: relative;
+    background-color: var(--container-background);
+}
+
+@media (min-width: 834px) {
+    .base {
+        width: 94%;
+        max-width: 1240px;
+        margin: 3% auto;
+        padding: 40px 0 0;
+        border-radius: 40px;
+        -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.2);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+}
+
+@media (min-width: 1280px) {
+    .base {
+        max-width: 1240px;
+    }
+}
