@@ -22,7 +22,8 @@
     "prop-types": "^15.8.1",
     "react": "^18",
     "react-dom": "^18",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "workbox-sw": "^7.0.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

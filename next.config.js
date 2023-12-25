@@ -10,28 +10,16 @@ const nextConfig = withPlugin(
       withPwa,
       {
         pwa: {
-          dest: 'public',
-          runtimeCaching
+          dest: 'public'
         }
       }
     ],
     [
       withOffline,
       {
-        workbox: {
-          swDest: 'static/service-worker.js',
-          runtimeCaching: [
-            {
-              urlPattern: /^https?.*/,
-              handler: 'NetworkFirst',
-              options: {
-                cacheName: 'offlineCache',
-                expiration: {
-                  maxEntries: 200
-                }
-              }
-            }
-          ]
+        scope: '/',
+        workboxOpts: {
+          runtimeCaching
         }
       }
     ]

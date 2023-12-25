@@ -1,5 +1,6 @@
 .base {
     display: grid;
+    padding: 0 24px 40px;
 }
 
 .brand {
@@ -81,7 +82,6 @@
     .base {
         grid-auto-flow: column;
         justify-content: space-between;
-        padding: 0 0 40px;
         margin: 0 auto;
         max-width: 1140px;
     }
@@ -108,5 +108,11 @@
     .ul {
         grid-auto-flow: column;
         justify-content: start;
+    }
+}
+
+@media (min-width: 1280px) {
+    .base {
+        padding: 0 0 40px;
     }
 }
