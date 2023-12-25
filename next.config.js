@@ -8,7 +8,6 @@ const nextConfig = {
     dest: 'public',
     runtimeCaching
   },
-  distDir: './out',
   scope: '/',
   assetPrefix: isProd ? 'https://www.nurulislam.dev' : undefined,
   reactStrictMode: true,

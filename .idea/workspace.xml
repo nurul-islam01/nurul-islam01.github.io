@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Input/input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Input/input.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/NavItem/nav-item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/NavItem/nav-item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/PageTitle/page-title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/PageTitle/page-title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/SectionTitle/section-title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/SectionTitle/section-title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Skill/skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Skill/skill.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/TextArea/text-area.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/TextArea/text-area.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Container/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Container/container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Footer/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Certificates/certificates.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Certificates/certificates.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Clients/clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Clients/clients.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Contacts/contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Education/education.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Education/education.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/IDo/i-do.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/IDo/i-do.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Intro/intro.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Intro/intro.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Location/location.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Location/location.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Pricing/pricing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Pricing/pricing.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Skills/skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Skills/skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Testimonial/testimonial.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Testimonial/testimonial.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contact.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/resume/resume.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/resume/resume.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/linear-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/linear-icons.css" afterDir="false" />
-    </list>
+    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +100,7 @@
       <workItem from="1703427206432" duration="17337000" />
       <workItem from="1703480893077" duration="16086000" />
       <workItem from="1703509933173" duration="457000" />
-      <workItem from="1703511771190" duration="17254000" />
+      <workItem from="1703511771190" duration="17683000" />
     </task>
     <servers />
   </component>
