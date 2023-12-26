@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
 });
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).end();
+  if (!req.body) {
+    return res.status(500).end();
   }
 
   const { name, email, subject, message } = req.body;
