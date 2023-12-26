@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 import SectionTitle from '@/components/atoms/SectionTitle';
 import Input from '@/components/atoms/Input';
@@ -21,7 +20,13 @@ const Contacts = () => {
     e.preventDefault();
 
     try {
-      await axios.post('/api/email', state);
+      await fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(state)
+      });
     } catch (error) {
       console.error('Error submitting form:', error);
     }

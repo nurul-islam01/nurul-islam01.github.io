@@ -24,7 +24,8 @@ const nextConfig = {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
-      '/offline': { page: '/offline' }
+      '/offline': { page: '/offline' },
+      '/api/email': { page: '/api/email' }
     };
   },
   webpack(config) {
@@ -37,7 +38,7 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  output: 'export',
+  // output: 'export',
   images: {
     unoptimized: true
   }

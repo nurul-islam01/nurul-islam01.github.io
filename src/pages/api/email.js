@@ -11,8 +11,11 @@ const transporter = nodemailer.createTransport({
 });
 
 export default async function handler(req, res) {
-  if (!req.body) {
-    return res.status(500).end();
+  if (req.method !== 'POST') {
+    res
+      .status(405)
+      .json({ success: false, error: 'Route Not get post request' });
+    return;
   }
 
   const { name, email, subject, message } = req.body;
