@@ -40,13 +40,13 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  // output: 'export',
+  output: 'export',
   images: {
     unoptimized: true
   },
-  // compiler: {
-  //   removeConsole: true
-  // },
+  compiler: {
+    removeConsole: true
+  },
   experimental: {
     serverActions: true
   }
