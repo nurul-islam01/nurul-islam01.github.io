@@ -34,14 +34,23 @@ const Contacts = () => {
       },
       body: JSON.stringify(state)
     })
-      .then(() => setMail({ loading: false, status: status.SUCCESS }))
+      .then((res) => {
+        if (res.status === 2000) {
+          setMail({ loading: false, status: status.SUCCESS });
+        } else {
+          setMail({
+            loading: false,
+            status: status.ERROR
+          });
+        }
+      })
       .catch(() =>
         setMail({
           loading: false,
           status: status.ERROR
         })
       )
-      .finally(() => setTimeout(() => setMail({}), 1000));
+      .finally(() => setTimeout(() => setMail({}), 1500));
   };
 
   return (
