@@ -38,10 +38,11 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  // output: 'export',
+  output: 'export',
   images: {
     unoptimized: true
-  }
+  },
+  exclude: ['api']
 };
 
 module.exports = withPWA(nextConfig);
