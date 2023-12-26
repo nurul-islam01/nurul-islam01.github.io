@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker
-          .register('/static/service-worker.js', { scope: '/' })
+          .register('/static/service-worker.js')
           .then(function (registration) {
             console.log('SW registered: ');
           })
