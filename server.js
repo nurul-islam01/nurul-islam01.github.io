@@ -10,7 +10,7 @@ const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
 const { NextResponse } = require('next/server');
 
-const { sendMail } = require('./services/mail');
+const { sendMail } = require('./src/services/mail');
 
 app.prepare().then(() => {
   createServer(async (req, res, next) => {
