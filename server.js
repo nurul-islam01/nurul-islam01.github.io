@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
 
-const { sendMail } = require('./services/mail');
+const { sendMail } = require('@/services/mail');
 const { NextResponse } = require('next/server');
 
 app.prepare().then(() => {

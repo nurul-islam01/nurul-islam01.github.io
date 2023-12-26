@@ -18,7 +18,8 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
-  useFileSystemPublicRoutes: false,
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   eslint: { ignoreDuringBuilds: true },
   exportPathMap: async function () {
     return {
@@ -44,6 +45,9 @@ const nextConfig = {
   },
   compiler: {
     removeConsole: true
+  },
+  experimental: {
+    serverActions: true
   }
 };
 

@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fallback-development.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/fallback-development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/swe-worker-development.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/swe-worker-development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/workbox-631a4576.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/workbox-631a4576.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,7 @@
       <workItem from="1703585749949" duration="286000" />
       <workItem from="1703586407808" duration="1839000" />
       <workItem from="1703588704513" duration="7322000" />
-      <workItem from="1703597038045" duration="13367000" />
+      <workItem from="1703597038045" duration="13673000" />
     </task>
     <servers />
   </component>
