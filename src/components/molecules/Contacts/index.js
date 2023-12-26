@@ -5,9 +5,17 @@ import Input from '@/components/atoms/Input';
 import TextArea from '@/components/atoms/TextArea';
 
 import styles from './contacts.module.css';
+import Spinner from '@/components/atoms/Spinner';
+
+const status = Object.freeze({
+  ERROR: 'error',
+  SUCCESS: 'success',
+  LOADING: 'loading'
+});
 
 const Contacts = () => {
   const [state, setState] = useState({});
+  const [mail, setMail] = useState({});
 
   const onChange = (e) => {
     setState((prev) => ({
@@ -18,18 +26,22 @@ const Contacts = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    try {
-      await fetch('/api/email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(state)
-      });
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    }
+    setMail({ loading: true, status: status.LOADING });
+    await fetch('/api/email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(state)
+    })
+      .then(() => setMail({ loading: false, status: status.SUCCESS }))
+      .catch(() =>
+        setMail({
+          loading: false,
+          status: status.ERROR
+        })
+      )
+      .finally(() => setTimeout(() => setMail({}), 1000));
   };
 
   return (
@@ -113,8 +125,11 @@ const Contacts = () => {
             />
           </div>
           <div>
-            <button type="submit" className={styles.submit}>
-              Send message
+            <button
+              type="submit"
+              className={`${styles.submit} ${styles[mail.status] || ''}`}
+            >
+              {mail.loading ? 'Send message' : <Spinner />}
             </button>
           </div>
         </form>

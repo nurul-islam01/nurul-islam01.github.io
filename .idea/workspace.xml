@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="" />
+    <list default="true" id="0d931ffd-9f17-46a1-8bb3-f40b2182f192" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Spinner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Spinner/spinner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Contacts/contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +110,10 @@
       <workItem from="1703558482315" duration="6188000" />
       <workItem from="1703568839449" duration="3419000" />
       <workItem from="1703578216758" duration="622000" />
+      <workItem from="1703584238890" duration="582000" />
+      <workItem from="1703585195356" duration="253000" />
+      <workItem from="1703585749949" duration="286000" />
+      <workItem from="1703586407808" duration="1839000" />
     </task>
     <servers />
   </component>
