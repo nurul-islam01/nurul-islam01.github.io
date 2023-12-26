@@ -1,4 +1,3 @@
-const withPWA = require('next-pwa');
 const withOffline = require('next-offline');
 const path = require('path');
 
@@ -23,6 +22,7 @@ const nextConfig = {
 
     return config;
   },
+  distDir: 'out',
   output: 'export',
   pwa: {
     dest: 'public',
@@ -47,7 +47,11 @@ const nextConfig = {
         }
       }
     ]
-  }
+  },
+  serverRuntimeConfig: {
+    staticFolder: '/static'
+  },
+  exclude: [/node_modules/]
 };
 
 module.exports = withOffline(nextConfig);
