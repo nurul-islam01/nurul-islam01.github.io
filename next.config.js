@@ -1,5 +1,18 @@
-const withOffline = require('next-offline');
 const path = require('path');
+
+const withPWA = require('@ducanh2912/next-pwa').default({
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
+  reloadOnOnline: true,
+  swcMinify: true,
+  dest: 'public',
+  fallbacks: {
+    document: '/offline'
+  },
+  workboxOptions: {
+    disableDevLogs: true
+  }
+});
 
 const nextConfig = {
   sassOptions: {
@@ -54,4 +67,4 @@ const nextConfig = {
   exclude: [/node_modules/]
 };
 
-module.exports = withOffline(nextConfig);
+module.exports = withPWA(nextConfig);
