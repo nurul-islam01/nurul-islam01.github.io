@@ -32,7 +32,7 @@ const nextConfig = {
     unoptimized: true
   },
   workboxOpts: {
-    swDest: 'static/service-worker.js',
+    swDest: 'service-worker.js',
     runtimeCaching: [
       {
         urlPattern: /^https?.*/,
