@@ -23,13 +23,30 @@ const nextConfig = {
 
     return config;
   },
-  output: 'export',
+  output: 'standalone',
   pwa: {
     dest: 'public',
     disable: process.env.NODE_ENV === 'development'
   },
   images: {
     unoptimized: true
+  },
+  workboxOpts: {
+    swDest: 'static/service-worker.js',
+    runtimeCaching: [
+      {
+        urlPattern: /^https?.*/,
+        handler: 'NetworkFirst',
+        options: {
+          cacheName: 'offlineCache',
+          expiration: {
+            maxEntries: 200,
+            maxAgeSeconds: 30 * 24 * 60 * 60
+          },
+          networkTimeoutSeconds: 10
+        }
+      }
+    ]
   }
 };
 
