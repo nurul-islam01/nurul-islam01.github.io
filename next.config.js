@@ -19,13 +19,13 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')]
   },
   eslint: { ignoreDuringBuilds: true },
-  exportPathMap: async () => {
+  exportPathMap: async function () {
     return {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
       '/offline': { page: '/offline' },
-      '/api/email': { page: '/api/email' }
+      '/mail': { page: '/mail' }
     };
   },
   webpack(config) {
@@ -39,11 +39,9 @@ const nextConfig = {
   },
   distDir: 'out',
   output: 'export',
-  trailingSlash: true,
   images: {
     unoptimized: true
-  },
-  exclude: ['api']
+  }
 };
 
 module.exports = withPWA(nextConfig);

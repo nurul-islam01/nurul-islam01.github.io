@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
+import Spinner from '@/components/atoms/Spinner';
 import SectionTitle from '@/components/atoms/SectionTitle';
 import Input from '@/components/atoms/Input';
 import TextArea from '@/components/atoms/TextArea';
 
 import styles from './contacts.module.css';
-import Spinner from '@/components/atoms/Spinner';
 
 const status = Object.freeze({
   ERROR: 'error',
@@ -27,7 +27,7 @@ const Contacts = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMail({ loading: true, status: status.LOADING });
-    await fetch('/api/email', {
+    await fetch('/mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
