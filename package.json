@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node src/server.js",
+    "start": "NODE_ENV=production node src/server.js",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start",
     "lint": "next lint",
     "format": "npx prettier --write .",
     "prepare": "husky install"

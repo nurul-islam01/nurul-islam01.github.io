@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-export default async function POST(req, res) {
+export async function POST(req, res) {
   console.log('CALLED');
   try {
     const body = await req.json();

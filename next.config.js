@@ -26,8 +26,7 @@ const nextConfig = {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
-      '/offline': { page: '/offline' },
-      '/api/mail': { page: '/api/mail' }
+      '/offline': { page: '/offline' }
     };
   },
   webpack(config) {
@@ -46,9 +45,6 @@ const nextConfig = {
   },
   compiler: {
     removeConsole: true
-  },
-  experimental: {
-    serverActions: true
   }
 };
 
