@@ -15,6 +15,10 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
+  basePath:
+    process.env.NODE_ENV === 'production'
+      ? 'https://www.nurulislam.dev'
+      : undefined,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
