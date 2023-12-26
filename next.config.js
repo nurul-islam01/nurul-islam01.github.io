@@ -24,7 +24,7 @@ const nextConfig = {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
-      '/offline': { path: '/offline' }
+      '/offline': { page: '/offline' }
     };
   },
   webpack(config) {
