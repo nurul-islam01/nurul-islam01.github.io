@@ -8,9 +8,9 @@ const hostname = process.env.HOST || 'localhost';
 const port = process.env.PORT || 3000;
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
-
-const { sendMail } = require('@/services/mail');
 const { NextResponse } = require('next/server');
+
+const { sendMail } = require('./services/mail');
 
 app.prepare().then(() => {
   createServer(async (req, res, next) => {
