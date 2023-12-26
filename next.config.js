@@ -23,7 +23,8 @@ const nextConfig = {
     return {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
-      '/contact': { page: '/contact' }
+      '/contact': { page: '/contact' },
+      '/offline': { path: '/offline' }
     };
   },
   webpack(config) {
