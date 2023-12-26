@@ -23,7 +23,7 @@ const nextConfig = {
 
     return config;
   },
-  output: 'standalone',
+  output: 'export',
   pwa: {
     dest: 'public',
     disable: process.env.NODE_ENV === 'development'
