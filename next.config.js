@@ -18,8 +18,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
-  trailingSlash: true,
-  skipTrailingSlashRedirect: true,
+  useFileSystemPublicRoutes: false,
   eslint: { ignoreDuringBuilds: true },
   exportPathMap: async function () {
     return {

@@ -29,13 +29,13 @@ const Contacts = () => {
     e.preventDefault();
     setMail({ loading: true, status: status.LOADING });
     axios
-      .post('/api/mail', state, {
+      .post('/mail', state, {
         headers: {
           'Content-Type': 'application/json'
         }
       })
       .then((res) => {
-        if (res.status === 2000) {
+        if (res.status === 200) {
           setMail({ loading: false, status: status.SUCCESS });
         } else {
           setMail({
@@ -44,12 +44,12 @@ const Contacts = () => {
           });
         }
       })
-      .catch(() =>
+      .catch((err) => {
         setMail({
           loading: false,
           status: status.ERROR
-        })
-      )
+        });
+      })
       .finally(() => setTimeout(() => setMail({}), 1500));
   };
 
@@ -109,21 +109,21 @@ const Contacts = () => {
               name="name"
               type="text"
               placeholder="Full Name"
-              // required
+              required
             />
             <Input
               name="email"
               type="email"
               onChange={onChange}
               placeholder="Email Address"
-              // required
+              required
             />
             <Input
               name="subject"
               onChange={onChange}
               type="text"
               placeholder="Subject"
-              // required
+              required
             />
           </div>
           <div className={styles.textarea}>
