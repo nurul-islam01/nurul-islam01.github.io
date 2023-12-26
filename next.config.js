@@ -35,36 +35,7 @@ const nextConfig = {
 
     return config;
   },
-  distDir: 'out',
-  output: 'export',
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development'
-  },
-  images: {
-    unoptimized: true
-  },
-  workboxOpts: {
-    swDest: 'service-worker.js',
-    runtimeCaching: [
-      {
-        urlPattern: /^https?.*/,
-        handler: 'NetworkFirst',
-        options: {
-          cacheName: 'offlineCache',
-          expiration: {
-            maxEntries: 200,
-            maxAgeSeconds: 30 * 24 * 60 * 60
-          },
-          networkTimeoutSeconds: 10
-        }
-      }
-    ]
-  },
-  serverRuntimeConfig: {
-    staticFolder: '/static'
-  },
-  exclude: [/node_modules/]
+  output: 'export'
 };
 
 module.exports = withPWA(nextConfig);
