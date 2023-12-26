@@ -129,7 +129,7 @@ const Contacts = () => {
               type="submit"
               className={`${styles.submit} ${styles[mail.status] || ''}`}
             >
-              {mail.loading ? 'Send message' : <Spinner />}
+              {!mail.loading ? 'Send message' : <Spinner />}
             </button>
           </div>
         </form>
