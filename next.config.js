@@ -35,7 +35,11 @@ const nextConfig = {
 
     return config;
   },
-  output: 'export'
+  distDir: 'out',
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
 };
 
 module.exports = withPWA(nextConfig);
