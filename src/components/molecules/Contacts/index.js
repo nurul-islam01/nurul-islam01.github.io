@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 import Spinner from '@/components/atoms/Spinner';
 import SectionTitle from '@/components/atoms/SectionTitle';
@@ -27,13 +28,12 @@ const Contacts = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMail({ loading: true, status: status.LOADING });
-    await fetch('/mail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(state)
-    })
+    axios
+      .post('/api/mail', state, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
       .then((res) => {
         if (res.status === 2000) {
           setMail({ loading: false, status: status.SUCCESS });
@@ -109,21 +109,21 @@ const Contacts = () => {
               name="name"
               type="text"
               placeholder="Full Name"
-              required
+              // required
             />
             <Input
               name="email"
               type="email"
               onChange={onChange}
               placeholder="Email Address"
-              required
+              // required
             />
             <Input
               name="subject"
               onChange={onChange}
               type="text"
               placeholder="Subject"
-              required
+              // required
             />
           </div>
           <div className={styles.textarea}>

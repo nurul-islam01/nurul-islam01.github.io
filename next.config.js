@@ -15,13 +15,11 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
-  basePath:
-    process.env.NODE_ENV === 'production'
-      ? 'https://www.nurulislam.dev'
-      : undefined,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   eslint: { ignoreDuringBuilds: true },
   exportPathMap: async function () {
     return {
@@ -29,7 +27,7 @@ const nextConfig = {
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
       '/offline': { page: '/offline' },
-      '/mail': { page: '/mail' }
+      '/api/mail': { page: '/api/mail' }
     };
   },
   webpack(config) {
@@ -41,10 +39,16 @@ const nextConfig = {
 
     return config;
   },
-  distDir: 'out',
-  output: 'export',
+  distDir: 'dist',
+  // output: 'export',
   images: {
     unoptimized: true
+  },
+  compiler: {
+    removeConsole: true
+  },
+  experimental: {
+    serverActions: true
   }
 };
 
