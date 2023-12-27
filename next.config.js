@@ -42,7 +42,7 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  output: 'export',
+  basePath: '/github-pages',
   images: {
     unoptimized: true
   },
