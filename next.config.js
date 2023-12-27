@@ -39,7 +39,7 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  output: 'export',
+  output: 'standalone',
   images: {
     unoptimized: true
   },
