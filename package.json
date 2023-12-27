@@ -7,8 +7,6 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "NODE_ENV=production node server.js",
-    "export": "next export",
-    "deploy": "npm run build && npm run export && touch ./out/.nojekyll && gh-pages -d out -t true"
     "lint": "next lint",
     "format": "npx prettier --write .",
     "prepare": "husky install"
