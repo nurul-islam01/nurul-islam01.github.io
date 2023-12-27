@@ -15,6 +15,7 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
+  reactStrictMode: true,
   exportTrailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
@@ -27,7 +28,8 @@ const nextConfig = {
       '/': { page: '/' },
       '/resume': { page: '/resume' },
       '/contact': { page: '/contact' },
-      '/offline': { page: '/offline' }
+      '/offline': { page: '/offline' },
+      '/mail': { page: '/mail' }
     };
   },
   webpack(config) {
@@ -40,15 +42,11 @@ const nextConfig = {
     return config;
   },
   distDir: 'out',
-  output: 'standalone',
   images: {
     unoptimized: true
   },
   compiler: {
     removeConsole: true
-  },
-  experimental: {
-    serverActions: true
   }
 };
 
