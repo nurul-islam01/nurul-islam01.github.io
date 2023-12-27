@@ -15,6 +15,7 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 });
 
 const nextConfig = {
+  exportTrailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
