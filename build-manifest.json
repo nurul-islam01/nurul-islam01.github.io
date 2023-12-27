@@ -1,0 +1,59 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/md9VL7TBX4I88OTgOscgV/_buildManifest.js",
+    "static/md9VL7TBX4I88OTgOscgV/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/chunks/675-9125203288a5e8b8.js",
+      "static/chunks/80-1f12d493e2c8059b.js",
+      "static/css/8bdf0c772f2bbd20.css",
+      "static/chunks/pages/index-7b92b31e98763c1a.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/css/d687bb0f6db268e7.css",
+      "static/chunks/pages/_app-39b8485e6cdaa72a.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/chunks/pages/_error-b6491f42fb2263bb.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/chunks/121-833d5ad5a7e6c5dd.js",
+      "static/css/d71bc7538547f5c1.css",
+      "static/chunks/pages/contact-8dfede02f9e33660.js"
+    ],
+    "/offline": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/chunks/pages/offline-51ccf70c8b201387.js"
+    ],
+    "/resume": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-5429a50ba5373c56.js",
+      "static/chunks/main-9f29e2e1f936ddad.js",
+      "static/chunks/675-9125203288a5e8b8.js",
+      "static/css/9ea42c21141294d2.css",
+      "static/chunks/pages/resume-f7c5df5647a5a9a0.js"
+    ]
+  },
+  "ampFirstPages": []
+}
